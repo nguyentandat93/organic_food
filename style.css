@@ -84,3 +84,51 @@ h1 {
     -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
     transition: 0.4s;
 }
+
+.apple {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./imgs/red.jpg')no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.apple h1 {
+    font-family: "Lobster", cursive;
+}
+
+.news {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background-color: #fff;
+    margin-left: -10px;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid #fff;
+    outline: none;
+    background: #000;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news input::placeholder {
+    color: #fff;
+}
+
+.news p {
+    margin: 0;
+}
+
+.fab {
+    font-size: 2.5rem;
+    padding-right: 5px;
+}
